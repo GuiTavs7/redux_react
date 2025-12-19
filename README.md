@@ -9,7 +9,7 @@ npm install
 
 Execute a aplicação
 ```bash
-npm start
+npm run dev
 ```
 
 ## De onde vem os produtos da listagem?
@@ -23,8 +23,8 @@ src/json/products.json
 
 No produto da listagem tem um botão pra adicionar ao carrinho 
 
-Quando o usuario clicar em adicionar o produto dispara uma action "ADD_PRODUCT_TO_CART"
+Quando o usuário clicar em adicionar o produto dispara uma action "ADD_PRODUCT_TO_CART"
 
-Essa action vai ser dispachada para o reducer que ouve a action, pega todos os produtos atuais no carrinho e adiciona um novo
+Essa action vai ser enviada ao reducer que a ouve, pegando todos os produtos atuais no carrinho e adicionando um novo
 
 O novo estado é uma lista com o produto adicionado, todos os componentes que usam esse estado são atualizados.
