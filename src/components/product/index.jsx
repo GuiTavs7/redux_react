@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useDispatch } from "react-redux";
-import {addProductsToCart} from '../../store/actions/cart.js';
+import {addProductsToCart} from '../../store/actions/cart.jsx';
 
 const Product = ({ name, price }) => {
 

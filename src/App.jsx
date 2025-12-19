@@ -8,13 +8,13 @@ import store from "./store/store";
 function App() {
   return (
     <>
-      <Provider store={store}>
-        <GlobalStyle />
-        <BrowserRouter>
-         <Header />
-         <AppRoutes />
-       </BrowserRouter>
-      </Provider>
+        <Provider store={store}>
+          <GlobalStyle />
+          <BrowserRouter>
+            <Header />
+            <AppRoutes />
+          </BrowserRouter>
+        </Provider>
     </>
   );
 }
